@@ -1,4 +1,4 @@
-from functools import partial
+from functools import partial, reduce
 def curry(f):
     def curried(*args, **kwargs):
         if len(args) + len(kwargs) >= f.__code__.co_argcount:
