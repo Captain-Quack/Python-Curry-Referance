@@ -1,5 +1,5 @@
 # Python-Curry-Referance
-```
+```python
 from functools import partial
 def curry(f):
     def curried(*args, **kwargs):
